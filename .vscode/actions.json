@@ -1,7 +1,7 @@
 [
   {
     "name": "Create RPGLE Program",
-    "command": "CRTBNDRPG PGM(&CURLIB/&NAME) SRCSTMF('&RELATIVEPATH') OPTION(*EVENTF) DBGVIEW(*SOURCE) TGTCCSID(*JOB)",
+    "command": "CRTBNDRPG PGM(&CURLIB/&NAME) SRCSTMF('&RELATIVEPATH') DBGVIEW(*SOURCE) TGTCCSID(*JOB)",
     "deployFirst": true,
     "environment": "ile",
     "extensions": [
