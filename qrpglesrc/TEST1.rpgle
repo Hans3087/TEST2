@@ -1,5 +1,5 @@
+H OPTION(*EVENTF)
 **free
-   //Hola
 
 dcl-s mytext char(52);
 
