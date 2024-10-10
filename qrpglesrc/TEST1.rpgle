@@ -1,5 +1,5 @@
 **free
-**Hola
+   //Hola
 
 dcl-s mytext char(52);
 
