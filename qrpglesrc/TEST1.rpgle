@@ -1,10 +1,8 @@
 **free
+ctl-opt main(main) actgrp(*caller);
 
+dcl-proc main;
 
-dcl-s mytext char(52);
+ snd-msg 'Hello world';
 
-mytext = 'Hello world';
-
-dsply mytext;
-
-return;
+end-proc;
