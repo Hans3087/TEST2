@@ -1,4 +1,3 @@
-H OPTION(*EVENTF)
 **free
 
 dcl-s mytext char(52);
