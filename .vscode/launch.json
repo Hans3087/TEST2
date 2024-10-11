@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "IBMiDebug",
+            "request": "launch",
+            "subType": "batch",
+            "name": "IBM i Debug: Debug a batch program",
+            "user": "",
+            "password": "${command:AskForPassword}",
+            "host": "",
+            "port": 8005,
+            "library": "",
+            "program": "",
+            "startBatchJobCommand": "",
+            "updateProductionFiles": false
+        },
+        {
+            "type": "IBMiDebug",
+            "request": "attach",
+            "name": "IBM i Debug: Attach to a running job",
+            "user": "",
+            "password": "${command:AskForPassword}",
+            "host": "",
+            "port": 8005,
+            "jobId": ""
+        },
+        {
+            "type": "IBMiDebug",
+            "request": "launch",
+            "subType": "sep",
+            "action": "set",
+            "name": "IBM i Debug: Set a Service Entry Point",
+            "user": "",
+            "password": "${command:AskForPassword}",
+            "host": "",
+            "port": 8005,
+            "library": "",
+            "program": "",
+            "programType": "*PGM",
+            "module": "",
+            "procedure": ""
+        }
+    ]
+}
