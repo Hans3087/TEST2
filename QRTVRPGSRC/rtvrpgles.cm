@@ -1,0 +1,15 @@
+/*    RTVRPGLES - Retrieve RPGLE source                                */
+/*    Created by Jim Friedman 01/26/04                                 */
+
+             CMD        PROMPT('Retrieve RPGLE source')
+             PARM       KWD(PGMNAME) TYPE(QUAL) MIN(1) CHOICE('Name +
+                          required') PROMPT('Program name')
+             PARM       KWD(SRCFIL) TYPE(QUAL) MIN(1) CHOICE('Name +
+                          required') PROMPT('Source file')
+             PARM       KWD(MBRNAME) TYPE(*NAME) DFT(*PGM) +
+                          SPCVAL((*PGM)) CHOICE('Name required') +
+                          PROMPT('Retrieved member name')
+QUAL:       QUAL       TYPE(*NAME) MIN(1) CHOICE('Name required')
+             QUAL       TYPE(*NAME) MIN(1) CHOICE('Name required') +
+                          PROMPT('Library')
+
