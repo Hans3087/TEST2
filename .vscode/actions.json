@@ -2,6 +2,7 @@
   {
     "name": "Create RPGLE Program",
     "command": "CRTBNDRPG PGM(&CURLIB/&NAME) DFTACTGRP(*NO) ACTGRP(*NEW) SRCSTMF('&RELATIVEPATH') OPTION(*EVENTF) DBGVIEW(*SOURCE) TGTCCSID(*JOB)",
+    "command1": "QSYS/CPYFRMSTMF FROMSTMF('&RELATIVEPATH') TOMBR('/QSYS.LIB/OCOOL30871.LIB/QRPGLESRC.FILE/&NAME.mbr') MBROPT(*REPLACE) CVTDTA(*AUTO)",
     "deployFirst": true,
     "environment": "ile",
     "extensions": [
