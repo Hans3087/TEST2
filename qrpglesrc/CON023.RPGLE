@@ -45,6 +45,5 @@
      c                   eval      Msg = 'IP = ' + %str(inet_ntoa(IP))
      c                   endif
 
-     c*                  dsply                   Msg
-     c*                  eval      *inlr = *on
+
      c                   return
