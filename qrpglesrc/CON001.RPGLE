@@ -39,7 +39,7 @@
      c                   endif
 
      c                   if        IP = INADDR_NONE
-     c                   eval      Msg = 'Host not found!'
+     c                   eval      Msg = 'Host not found!
      c                   else
      c                   eval      Msg = 'IP = ' + %str(inet_ntoa(IP))
      c                   endif
