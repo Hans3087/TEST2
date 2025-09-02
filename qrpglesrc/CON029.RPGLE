@@ -47,4 +47,10 @@
 
      c*                  dsply                   Msg
      c*                  eval      *inlr = *on
+     c*                  dsply                   Msg
+     c*                  eval      *inlr = *on
+     c*                  dsply                   Msg
+     c*                  eval      *inlr = *on
+     c*                  dsply                   Msg
+     c*                  eval      *inlr = *on
      c                   return
