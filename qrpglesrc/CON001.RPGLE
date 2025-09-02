@@ -28,7 +28,7 @@
      c     *entry        plist
      c                   parm                    Msg
 
-     c                   eval      host = 'www.google.cl'
+     c                   eval      host = 'www.google.cl
      c                   eval      IP = inet_addr(%trim(host))
 
      c                   if        IP = INADDR_NONE
@@ -39,7 +39,7 @@
      c                   endif
 
      c                   if        IP = INADDR_NONE
-     c                   eval      Msg = 'Host not found!
+     c                   eval      Msg = 'Host not found!'
      c                   else
      c                   eval      Msg = 'IP = ' + %str(inet_ntoa(IP))
      c                   endif
