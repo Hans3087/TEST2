@@ -28,7 +28,7 @@
      c     *entry        plist
      c                   parm                    Msg
 
-     c                   eval      host = 'www.google.cl
+     c                   eval      host = 'www.google.cl'
      c                   eval      IP = inet_addr(%trim(host))
 
      c                   if        IP = INADDR_NONE
@@ -45,6 +45,8 @@
      c                   endif
 
      c*                  dsply                   Msg
+     c*                  eval      *inlr = *on
+     c*                  eval      *inlr = *on
      c*                  eval      *inlr = *on
      c*                  eval      *inlr = *on
      c*                  eval      *inlr = *on
